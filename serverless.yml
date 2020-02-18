@@ -25,6 +25,6 @@ resources:
   Outputs:
     TemplateKaskadiLayerArn:
       Value:
-        Ref: TemplateKaskadiLayer
+        Ref: TemplateKaskadiLayerLambdaLayer
       Export:
         Name: TemplateKaskadiLayerArn
