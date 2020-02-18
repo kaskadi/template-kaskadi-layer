@@ -11,7 +11,7 @@
 - create a new repository and choose this repository as template
 - clone the new repository to a local working copy
 - set secrets up ([help](#Set-secrets-up))
-- install all dependencies (**inside of layer/nodejs!**) via `npm i`
+- install all dependencies via `npm i`
 - update the `serverless.yml` config file for deployment as needed
 - when you feel like your Lambda layer is ready for deployment, go [here](./.github/workflows/deploy.yml) and change the `command` field to `deploy -v`
 
