@@ -20,8 +20,6 @@
 
 ****
 
-**This layer is updating its dependencies every Sunday at 7AM CET**
-
 # What is this layer for?
 
 :point_right: **Describe here what the layer is achieving** :point_left:
