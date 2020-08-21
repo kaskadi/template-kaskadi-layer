@@ -1,4 +1,3 @@
-![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/update?label=dependencies%20updated&logo=npm)
 ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/deploy?label=deployed&logo=Amazon%20AWS)
 <!-- Only for branches which are not release/** or master -->
 <!-- ![](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/test?label=test&logo=serverless) -->
