@@ -1,13 +1,14 @@
-name: test
+name: build
 on:
-  push:
+  pull_request:
     branches:
-      - '!master'
-      - '!release/**'
+      - 'master'
+      - 'dev'
+    types: [opened, reopened, edited, synchronize]
     paths:
       - 'serverless.yml'
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
