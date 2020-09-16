@@ -3,18 +3,19 @@
 
 ****
 
-❌ **This section can be deleted when done with all the preliminary work** ❌
+# Testing
 
-# :computer: Creating a new Lambda layer from this template :computer:
+A `build` workflow (see [here](./.github/workflows/build.yml)) is running on `pull request`. It simply checks the syntax of `serverless.yml` for any errors.
 
-**Checklist (delete items when done)**
-- create a new repository and choose this repository as template
-- clone the new repository to a local working copy
-- install all dependencies via `npm i`
-- update the `serverless.yml` config file for deployment as needed
-- when you feel like your Lambda layer is ready for deployment, go [here](./.github/workflows/deploy.yml) and change the `command` field to `deploy -v`
+****
 
-**Attention:** if you wish to use kaskadi's CLI tools, make sure to have `kaskadi-cli` installed globally (`npm i -g kaskadi-cli`)
+# Deploying
+
+Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.github/workflows/deploy.yml)). This workflow will run on `push` to `master`. Before publishing, it checks for syntax error in your `serverless.yml` file.
+
+**You'll have to switch the command from `--version` to `deploy -v` to actually deploy!**
+
+**Warning: you may need to manually deploy the first time via `Serverless` CLI locally.**
 
 ****
 
