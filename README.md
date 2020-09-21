@@ -9,6 +9,16 @@ A `build` workflow (see [here](./.github/workflows/build.yml)) is running on `pu
 
 ****
 
+# Documentation
+
+This repository comes with a `generate-docs` job inside of the `deploy` workflow that generates documentation automatically for you by reading your main `package.json` and `serverless.yml` files and extracting the layer description and all installed dependencies. See [here](https://github.com/kaskadi/action-generate-docs) for more information.
+
+If you would like to see the workflow configuration, head [here](./.github/workflows/deploy.yml).
+
+You can configure the template used to generate the action documentation [here](./docs/template.md).
+
+****
+
 # Deploying
 
 Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.github/workflows/deploy.yml)). This workflow will run on `push` to `master`. Before publishing, it checks for syntax error in your `serverless.yml` file.
@@ -21,9 +31,13 @@ Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.gi
 
 # What is this layer for?
 
-:point_right: **Describe here what the layer is achieving** :point_left:
+No description found in package.json...
 
-# How to install modules?
+# Installed NPM packages
 
-1. Go into `layer/nodejs`
+No NPM packages installed...
+
+# How to add dependencies to this layer?
+
+1. Go into `layer/nodejs` (`layer` being the path you defined in `serverless.yml` configuration file)
 2. Run `npm i -S <package>` to install any package you need for this layer
