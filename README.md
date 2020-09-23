@@ -46,7 +46,7 @@ No NPM packages installed...
 
 See [configuration file](./serverless.yml) for more details.
 
-# How to add dependencies to this layer?
+# How to add dependencies to a layer?
 
-1. Go into `layer/nodejs` (`layer` being the path you defined in `serverless.yml` configuration file)
+1. Go into `layer/nodejs` (`layer` being the path you defined in `serverless.yml` configuration file for your layer)
 2. Run `npm i -S <package>` to install any package you need for this layer
