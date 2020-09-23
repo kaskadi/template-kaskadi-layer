@@ -29,13 +29,22 @@ Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.gi
 
 ****
 
-# What is this layer for?
+# Resources documentation
 
-No description found in package.json...
+The following layers are defined in this repository:
+- [template-kaskadi-layer](#template-kaskadi-layer)
 
-# Installed NPM packages
+## template-kaskadi-layer <a name="template-kaskadi-layer"></a>
+
+### Description
+
+No description found for this layer...
+
+### Installed NPM dependencies
 
 No NPM packages installed...
+
+See [configuration file](./serverless.yml) for more details.
 
 # How to add dependencies to this layer?
 
