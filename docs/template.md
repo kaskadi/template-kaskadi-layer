@@ -1,6 +1,8 @@
 [![Deploy status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/deploy?label=deploy&logo=Amazon%20AWS)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Adeploy)
 [![Build status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/build?label=build&logo=serverless)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Abuild)
 
+<!-- You can add badges inside of this section if you'd like -->
+
 ****
 
 # Testing
@@ -29,9 +31,13 @@ Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.gi
 
 ****
 
+<!-- automatically generated documentation will be placed in here -->
 {{>main}}
+<!-- automatically generated documentation will be placed in here -->
 
 # How to add dependencies to a layer?
 
 1. Go into `layer/nodejs` (`layer` being the path you defined in `serverless.yml` configuration file for your layer)
 2. Run `npm i -S <package>` to install any package you need for this layer
+
+<!-- You can customize this template as you'd like! -->
