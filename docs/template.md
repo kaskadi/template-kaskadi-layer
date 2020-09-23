@@ -11,7 +11,7 @@ A `build` workflow (see [here](./.github/workflows/build.yml)) is running on `pu
 
 # Documentation
 
-This repository comes with a `generate-docs` job inside of the `deploy` workflow that generates documentation automatically for you by reading your main `package.json` and `serverless.yml` files and extracting the layer description and all installed dependencies. See [here](https://github.com/kaskadi/action-generate-docs) for more information.
+This repository comes with a `generate-docs` job inside of the `deploy` workflow that generates documentation automatically for you by reading your main `serverless.yml` configuration file and extracting meta data of all layers you defined. See [here](https://github.com/kaskadi/action-generate-docs) for more information.
 
 If you would like to see the workflow configuration, head [here](./.github/workflows/deploy.yml).
 
