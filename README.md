@@ -43,9 +43,9 @@ The following layers are defined in this repository:
 
 No description found for this layer...
 
-### Installed NPM dependencies
+### Dependencies
 
-No NPM packages installed...
+No NPM packages or local utilities found for this layer...
 
 See [configuration file](./serverless.yml) for more details.
 <!-- automatically generated documentation will be placed in here -->
