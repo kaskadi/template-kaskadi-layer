@@ -40,4 +40,10 @@ Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.gi
 1. Go into `layer/nodejs` (`layer` being the path you defined in `serverless.yml` configuration file for your layer)
 2. Run `npm i -S <package>` to install any package you need for this layer
 
+# What if I would like to implement custom utilities?
+
+You can use the folder called `custom-utilities`. This folder will be automatically copied into your layer when you run `npm i`. See [here](./layer/nodejs/custom-utilities/) for details.
+
+**Note:** you can rename this folder freely but beware to also update the `postinstall` script inside of your layer `package.json` file (see [here](./layer/nodejs/package.json)).
+
 <!-- You can customize this template as you'd like! -->
