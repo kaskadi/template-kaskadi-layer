@@ -61,6 +61,8 @@ You can use any tags (and their respective values) visible below to find ressour
 | type         | s3, sns, etc.          |
 <!-- automatically generated documentation will be placed in here -->
 
+****
+
 # How to add dependencies to a layer?
 
 1. Go into `layer/nodejs` (`layer` being the path you defined in `serverless.yml` configuration file for your layer)
