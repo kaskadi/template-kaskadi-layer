@@ -41,13 +41,20 @@ The following layers are defined in this repository:
 
 ### Description
 
-No description found for this layer...
+No Description found for this layer...
 
 ### Dependencies
 
 - `custom-utilities` (local utility)
 
 See [configuration file](./serverless.yml) for more details.
+
+# Stack tags
+
+- app: your-app-name
+- service: template-kaskadi-layer
+- logical-unit: api-logical-unit
+- type: s3, sns, etc.
 <!-- automatically generated documentation will be placed in here -->
 
 # How to add dependencies to a layer?
