@@ -35,6 +35,8 @@ Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.gi
 {{>main}}
 <!-- automatically generated documentation will be placed in here -->
 
+****
+
 # How to add dependencies to a layer?
 
 1. Go into `layer/nodejs` (`layer` being the path you defined in `serverless.yml` configuration file for your layer)
