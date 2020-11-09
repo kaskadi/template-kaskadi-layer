@@ -14,7 +14,10 @@
 
 # Testing
 
-A `build` workflow (see [here](./.github/workflows/build.yml)) is running on `pull request`. It simply checks the syntax of `serverless.yml` for any errors.
+A `build` workflow (see [here](./.github/workflows/build.yml)) is running on `pull request`. It:
+1. performs a static code analysis of the layer to detect any vulnerabilities. If a vulnerability is found, the workflow will directly fail.
+2. checks the syntax of `serverless.yml` for any errors
+3. run any tests you may have set up with `npm test`
 
 ****
 
@@ -32,7 +35,10 @@ You can configure the template used to generate the action documentation [here](
 
 # Deploying
 
-Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.github/workflows/deploy.yml)). This workflow will run on `push` to `master`. Before publishing, it checks for syntax error in your `serverless.yml` file.
+Deploying to AWS is done automatically via a `deploy` workflow (see [here](./.github/workflows/deploy.yml)). This workflow will run on `push`. Before publishing, it:
+1. performs a static code analysis of the layer to detect any vulnerabilities. If a vulnerability is found, the workflow will directly fail.
+2. checks the syntax of `serverless.yml` for any errors
+3. run any tests you may have set up with `npm test`
 
 **You'll have to switch the command from `--version` to `deploy -v` in the [workflow configuration file](./.github/workflows/deploy.yml) to actually deploy!**
 
