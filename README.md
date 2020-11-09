@@ -2,6 +2,12 @@
 [![Build status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/build?label=build&logo=serverless)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Abuild)
 [![Docs generation status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/generate-docs?label=docs&logo=read-the-docs)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Agenerate-docs)
 
+**CodeClimate**
+
+[![](https://img.shields.io/codeclimate/maintainability/kaskadi/template-kaskadi-layer?label=maintainability&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-layer)
+[![](https://img.shields.io/codeclimate/tech-debt/kaskadi/template-kaskadi-layer?label=technical%20debt&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-layer)
+[![](https://img.shields.io/codeclimate/coverage/kaskadi/template-kaskadi-layer?label=test%20coverage&logo=Code%20Climate)](https://codeclimate.com/github/kaskadi/template-kaskadi-layer)
+
 <!-- You can add badges inside of this section if you'd like -->
 
 ****
