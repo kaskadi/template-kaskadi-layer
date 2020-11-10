@@ -1,5 +1,5 @@
 [![Deploy status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/deploy?label=deploy&logo=Amazon%20AWS)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Adeploy)
-[![Build status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/build?label=build&logo=serverless)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Abuild)
+[![Build status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/build?label=build&logo=mocha)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Abuild)
 [![Syntax check status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/syntax-check?label=syntax-check&logo=serverless)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Asyntax-check)
 [![Docs generation status](https://img.shields.io/github/workflow/status/kaskadi/template-kaskadi-layer/generate-docs?label=docs&logo=read-the-docs)](https://github.com/kaskadi/template-kaskadi-layer/actions?query=workflow%3Agenerate-docs)
 
